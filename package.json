@@ -1,0 +1,30 @@
+{
+  "name": "web-design-jason-tech-academy",
+  "version": "1.0.0",
+  "description": "web design course by jason-tech academy",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-design",
+    "web",
+    "developement",
+    "backend",
+    "frontend",
+    "developers",
+    "programming",
+    "website",
+    "build",
+    "my",
+    "website",
+    "website",
+    "builder",
+    "word-press"
+  ],
+  "author": "Friday anaja",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

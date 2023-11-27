@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Masterclass</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NGVE00WCCL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NGVE00WCCL");
+    </script>
+    <script
+      src="https://kit.fontawesome.com/ca0f30e36c.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="imgs/js-tech-logo.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="/src/index.js" defer></script>
+  </head>
+  <body class="font-fontFamily">
+    <header class="bg-white sticky top-0 z-50 w-full">
+      <div class="flex justify-between md:justify-around items-center">
+        <div
+          role="logo"
+          aria-describedby="logo of jason tech academy"
+          class="md:w-36 w-24"
+        >
+          <a href="index.html">
+            <img
+              src="./imgs/jason_tech_academy_logo-png.png"
+              alt="jason tech logo"
+              class="w-full h-auto"
+            />
+          </a>
+        </div>
+        <nav
+          class="fixed inset-0 -top-4 md:top-0 nav-container md:translate-x-0 transform -translate-x-full transition-transform duration-700 md:h-auto h-screen bg-secondaryColor md:bg-transparent md:relative self-center mt-4 flex justify-center md:justify-normal"
+        >
+          <ul
+            class="flex flex-col md:flex-row mt-20 gap-8 ml-28 md:ml-0 md:mt-0 nav-list"
+          >
+            <li>
+              <a
+                href="#course"
+                tabindex="1"
+                class="md:text-neutraDark text-white hover:text-secondaryColor text-lg"
+                >Course Over-view</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                tabindex="2"
+                class="md:text-neutraDark text-white hover:text-secondaryColor text-lg"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                tabindex="3"
+                class="md:text-neutraDark text-white hover:text-secondaryColor text-lg"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                tabindex="4"
+                class="md:text-neutraDark text-white hover:text-secondaryColor text-lg"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#enroll"
+                tabindex="5"
+                class="text-white bg-PrimaryColor hover:bg-secondaryColor transition-all duration-500 text-lg py-2 px-5"
+                role="button"
+                >Enroll</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="md:hidden mr-3 relative top-0 -mt-4 cursor-pointer nav-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="absolute right-3 open-nav"
+          >
+            <path
+              fill="currentColor"
+              d="M4 17.27v-1h16v1H4Zm0-4.77v-1h16v1H4Zm0-4.77v-1h16v1H4Z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 256 256"
+            class="absolute right-3 hidden close-nav"
+          >
+            <path
+              fill="currentColor"
+              d="M204.24 195.76a6 6 0 1 1-8.48 8.48L128 136.49l-67.76 67.75a6 6 0 0 1-8.48-8.48L119.51 128L51.76 60.24a6 6 0 0 1 8.48-8.48L128 119.51l67.76-67.75a6 6 0 0 1 8.48 8.48L136.49 128Z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section id="course" class="py-20 bg-PrimaryColor text-white w-full">
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2"
+          >
+            <!-- <div> -->
+            <div class="flex md:my-8 my-4 md:ml-4 flex-col items-start gap-8">
+              <h2 class="xl:text-4xl text-xl font-bold capitalize">
+                Master the art of web development
+              </h2>
+              <p class="text-lg md:w-auto">
+                Elevate Your Coding Journey , Join the Web Development
+                Masterclass for a Quantum Leap into the World of Digital
+                Innovation!
+              </p>
+              <div class="self-start cta-btn mt-8">
+                <a
+                  href="#pricing"
+                  class="text-white cta-link hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  >Enroll</a
+                >
+                <a
+                  href="#learn"
+                  class="text-white cta-link hover:text-secondaryColor transition-all duration-500 text-xl font-medium capitalize border-2 border-white md:py-3 md:px-8 py-1 px-4"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div
+              class="w-full flex flex-col justify-between gap-4 items-stretch overflow-hidden"
+            >
+              <div class="w-full">
+                <div class="flex gap-x-12 justify-between scroller relative">
+                  <div
+                    class="w-full top-0 transition-transform duration-1000 scroll-slide absolute"
+                  >
+                    <div class="md:w-full h-96 w-full">
+                      <img
+                        src="imgs/code-screen-desktop.jpg"
+                        alt="web-developing-setup"
+                        class="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <div class="bg-slate-200 py-8 px-4 text-neutraDark">
+                      <h3 class="text-xl font-semibold">
+                        Build modern websites easily
+                      </h3>
+                      <p class="text-lg my-4">
+                        perfect course you need to be able to build a website
+                        like pro!
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full top-0 transition-transform duration-1000 scroll-slide absolute"
+                  >
+                    <div class="md:w-full h-96 w-full">
+                      <img
+                        src="imgs/web-developing-setup.jpg"
+                        alt="web-developing-setup"
+                        class="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <div class="bg-slate-200 py-8 px-4 text-neutraDark">
+                      <h3 class="text-xl font-semibold">Build Effortlessly</h3>
+                      <p class="text-lg my-4">
+                        we Simplify your journey by making modern website
+                        construction a breeze.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full top-0 transition-transform duration-1000 scroll-slide absolute"
+                  >
+                    <div class="md:w-full h-96 w-full">
+                      <img
+                        src="imgs/screen-desktop-mobile.jpg"
+                        alt="web-developing-setup"
+                        class="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <div class="bg-slate-200 py-8 px-4 text-neutraDark">
+                      <h3 class="text-xl font-semibold">
+                        Craft with Precision
+                      </h3>
+                      <p class="text-lg my-4">
+                        we ensure your coding experience is both smooth and
+                        advanced.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- SLide Functionality -->
+              <div
+                class="flex justify-between items-center bg-slate-200 py-2 px-2 -mt-12 md:-mt-6 z-20"
+              >
+                <div class="flex gap-3 -mt-2 dot-container">
+                  <!-- <button
+                    class="h-4 w-4 rounded-full cursor-pointer bg-neutral-400 active-slide"
+                  ></button>
+                  <button
+                    class="h-4 w-4 rounded-full cursor-pointer bg-neutral-400"
+                  ></button>
+                  <button
+                    class="h-4 w-4 rounded-full cursor-pointer bg-neutral-400"
+                  ></button> -->
+                </div>
+                <div class="flex gap-4">
+                  <button
+                    class="bg-PrimaryColor hover:bg-secondaryColor h-12 w-12 flex items-center justify-center text-white rounded-full text-3xl font-bold transition-all duration-500 next-slide"
+                  >
+                    &rarr;
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          about course
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-6"
+          >
+            <div class="w-full h-[30rem]">
+              <img
+                src="imgs/web-development-and-designe-upscaled (1).png"
+                alt="web-developing-setup"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <div class="flex my-8 flex-col items-center gap-8">
+              <h2 class="md:text-4xl text-xl font-semibold capitalize">
+                Web Development Masterclass
+              </h2>
+              <p class="text-lg">
+                Welcome to the Comprehensive Web Development Masterclass at
+                Jason Tech Academy! This immersive course is designed to equip
+                you with the skills and knowledge needed to thrive in the
+                dynamic world of web development. Whether you're a beginner or
+                an intermediate developer looking to deepen your expertise, this
+                course provides a holistic learning experience.
+              </p>
+              <div class="self-start cta-btn mt-8">
+                <a
+                  href="#pricing"
+                  class="text-white cta-link hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  >Enroll</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="learn" class="py-20 w-full bg-PrimaryColor text-white">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          what you will learn
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-12"
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  fill="#b9933b"
+                  d="M200 40h-32a16 16 0 0 0-16-16H32a16 16 0 0 0-16 16v80a16 16 0 0 0 16 16h8v64a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-93.66 21.66a8 8 0 0 1 11.32-11.32l24 24a8 8 0 0 1 0 11.32l-24 24a8 8 0 0 1-11.32-11.32L124.69 80Zm-64 24a8 8 0 0 1 0-11.32l24-24a8 8 0 0 1 11.32 11.32L59.31 80l18.35 18.34a8 8 0 0 1-11.32 11.32ZM200 200H56v-64h96a16 16 0 0 0 16-16V56h32Z"
+                />
+              </svg>
+              <div class="flex flex-col gap-4 mt-4">
+                <h3 class="font-semibold text-xl capitalize">
+                  Foundations of Web Technologies
+                </h3>
+                <p class="text-lg">
+                  Gain a solid understanding of HTML5, CSS3, and JavaScript, the
+                  fundamental building blocks of web development.
+                </p>
+              </div>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 15 15"
+              >
+                <path
+                  fill="none"
+                  stroke="#b9933b"
+                  d="M2 13.5h11m-5.5-3V14m6.69-2.589a24.35 24.35 0 0 0-13.38 0a.243.243 0 0 1-.31-.234V1.823c0-.162.155-.279.31-.234a24.35 24.35 0 0 0 13.38 0a.243.243 0 0 1 .31.234v9.354a.243.243 0 0 1-.31.234Z"
+                />
+              </svg>
+              <div class="flex flex-col gap-4 mt-4">
+                <h3 class="font-semibold text-xl capitalize">
+                  Frontend Development
+                </h3>
+                <p class="text-lg">
+                  Dive into front-end frameworks such as React.js and tailwind
+                  css to create dynamic and interactive user interfaces
+                </p>
+              </div>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#b9933b"
+                  d="M15 17a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm-6 0H6a1 1 0 0 0 0 2h3a1 1 0 0 0 0-2Zm9 0a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm-3-6a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm-6 0H6a1 1 0 0 0 0 2h3a1 1 0 0 0 0-2Zm9-6a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm0 6a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm4-6a3 3 0 0 0-3-3H5a3 3 0 0 0-3 3v2a3 3 0 0 0 .78 2A3 3 0 0 0 2 11v2a3 3 0 0 0 .78 2A3 3 0 0 0 2 17v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a3 3 0 0 0-.78-2a3 3 0 0 0 .78-2v-2a3 3 0 0 0-.78-2A3 3 0 0 0 22 7Zm-2 14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Zm0-6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Zm0-6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Zm-5-2a1 1 0 1 0 1 1a1 1 0 0 0-1-1ZM9 5H6a1 1 0 0 0 0 2h3a1 1 0 0 0 0-2Z"
+                />
+              </svg>
+              <div class="flex flex-col gap-4 mt-4">
+                <h3 class="font-semibold text-xl capitalize">
+                  Backend Development
+                </h3>
+                <p class="text-lg">
+                  Master server-side scripting with Node.js and explore the
+                  robustness of Express.js for building scalable and efficient
+                  backend systems.
+                </p>
+              </div>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#b9933b"
+                  d="M4 20v-3h4v3H4Zm0-4v-4h4v4H4Zm0-5V4h4v7H4Zm6 9v-7h4v7h-4Zm0-8V8h4v4h-4Zm0-5V4h4v3h-4Zm6 13v-2h4v2h-4Zm0-3v-4h4v4h-4Zm0-5V4h4v8h-4Z"
+                />
+              </svg>
+              <div class="flex flex-col gap-4 mt-4">
+                <h3 class="font-semibold text-xl capitalize">
+                  Full-Stack Development
+                </h3>
+                <p class="text-lg">
+                  Bring it all together by learning how to connect the frontend
+                  and backend to create full-stack applications.
+                </p>
+              </div>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#b9933b"
+                  d="M4 6v10h5v-4a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v4h2V6H4M0 20v-2h4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h4v2h-6a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2H0m11.5 0a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5m4 0a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5M13 20v1h1v-1h-1m-2-8v7h5v-7h-5Z"
+                />
+              </svg>
+              <div class="flex flex-col gap-4 mt-4">
+                <h3 class="font-semibold text-xl capitalize">
+                  Responsive Design
+                </h3>
+                <p class="text-lg">
+                  Master the art of creating websites that adapt seamlessly to
+                  various screen sizes and devices
+                </p>
+              </div>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  fill="#b9933b"
+                  d="M27 29H13c-1.1 0-2-.9-2-2v-4h2v4h14V13h-4v-2h4c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2z"
+                />
+                <path
+                  fill="#b9933b"
+                  d="M11 19h10v2H11zm0-4h10v2H11zm0-4h10v2H11z"
+                />
+                <path
+                  fill="#b9933b"
+                  d="M5 3h14c1.1 0 2 .9 2 2v4h-2V5H5v14h4v2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2z"
+                />
+              </svg>
+              <div class="flex flex-col gap-4 mt-4">
+                <h3 class="font-semibold text-xl capitalize">
+                  Deployment and Hosting
+                </h3>
+                <p class="text-lg">
+                  Understand the process of deploying web applications to
+                  servers and cloud platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          course benefit
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-6"
+          >
+            <div class="flex my-8 flex-col items-start gap-2 hidden-container">
+              <div
+                class="active-benefit pl-3 sm:active-benefit self-center hidden-element"
+              >
+                <h2 class="md:text-3xl text-xl font-semibold capitalize my-3">
+                  Versatility in Web Development
+                </h2>
+                <p class="text-lg">
+                  The Web Development Masterclass offers a well-rounded
+                  curriculum covering both front-end and back-end development,
+                  providing you with a versatile skill set that is essential in
+                  today's dynamic tech landscape
+                </p>
+              </div>
+              <div class="pl-3 sm:active-benefit self-center hidden-element">
+                <h2 class="md:text-3xl text-xl font-semibold capitalize my-3">
+                  Hands-On Experience and Portfolio Building
+                </h2>
+                <p class="text-lg hidden">
+                  Through engaging hands-on projects and real-world scenarios,
+                  you'll not only grasp theoretical concepts but also apply them
+                  in practical situations.
+                </p>
+              </div>
+              <div class="pl-3 sm:active-benefit self-center hidden-element">
+                <h2 class="md:text-3xl text-xl font-semibold capitalize my-3">
+                  Career Readiness and Industry Insights
+                </h2>
+                <p class="text-lg hidden">
+                  The course goes beyond technical skills,You'll be
+                  well-prepared to navigate the job market, with a deep
+                  understanding of the skills in demand.
+                </p>
+              </div>
+              <!-- <div class="self-start cta-btn mt-8">
+                <a
+                  href="#pricing"
+                  class="text-white cta-link hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  >Enroll</a
+                >
+              </div> -->
+            </div>
+            <div class="w-full h-[30rem]">
+              <img
+                src="imgs/web-development-and-designe-upscaled.png"
+                alt="web-development-and-designe-upscaled"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="course over-view" class="py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          testimony speaks
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-12"
+          >
+            <div>
+              <div class="flex flex-col gap-4 mt-4 justify-center">
+                <p class="text-lg text-center">
+                  The Web Development Masterclass is a game-changer! The
+                  hands-on projects and knowledgeable instructors made learning
+                  HTML, CSS, and JavaScript a breeze. Highly recommend for
+                  anyone serious about web development
+                </p>
+                <div class="w-24 h-24 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover rounded-full"
+                  />
+                </div>
+                <h3 class="font-semibold text-xl capitalize text-center">
+                  Jonathan A.
+                </h3>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col gap-4 mt-4 justify-center">
+                <p class="text-lg text-center">
+                  As a computer science graduate, I found the Web Development
+                  Masterclass perfect for leveling up my skills. Modern
+                  technologies like React and Node.js were covered extensively.
+                  Practical and engaging, this course is a must for developers.
+                </p>
+                <div class="w-24 h-24 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover rounded-full"
+                  />
+                </div>
+                <h3 class="font-semibold text-xl capitalize text-center">
+                  Sarah J.
+                </h3>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col gap-4 mt-4 justify-center">
+                <p class="text-lg text-center">
+                  With minimal coding experience, I joined the Web Development
+                  Masterclass and was pleasantly surprised. The gradual
+                  progression and community support made learning web
+                  development enjoyable. Strongly recommend for beginners!
+                </p>
+                <div class="w-24 h-24 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover rounded-full"
+                  />
+                </div>
+                <h3 class="font-semibold text-xl capitalize text-center">
+                  Jane A.D
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="py-20 w-full bg-PrimaryColor text-white">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          pricing/payment
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-6 justify-center items-center"
+          >
+            <div class="flex flex-col gap-4 items-start">
+              <span class="bg-borderColor py-2 px-4 text-xl font-medium"
+                >Dollar 10% OFF</span
+              >
+              <div
+                class="border-4 border-borderColor py-5 px-4 flex gap-4 flex-col justify-start items-center"
+              >
+                <span class="flex gap-3 items-center">
+                  <p class="line-through text-borderColor text-lg">$150</p>
+                  <h3 class="text-3xl font-bold">$135</h3>
+                </span>
+                <p class="self-center">
+                  Join thousands of satisfied students and start your web
+                  development journey today.
+                </p>
+                <a
+                  href="https://paystack.com/pay/x97qygicqc"
+                  class="text-white text-center hover:bg-borderColor self-stretch transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  target="_blank"
+                  >Get started</a
+                >
+              </div>
+            </div>
+            <div class="flex flex-col gap-4 items-start">
+              <span
+                class="border-2 border-borderColor py-2 px-4 text-xl font-medium"
+                >Naira 10% OFF</span
+              >
+              <div
+                class="border-4 border-borderColor py-5 px-4 flex gap-4 flex-col items-center"
+              >
+                <span class="flex gap-3 items-center">
+                  <p class="line-through text-borderColor text-lg">#145,000</p>
+                  <h3 class="text-3xl font-bold">#130,500</h3>
+                </span>
+                <p>
+                  Become a skilled web developer and stand out in the industry.
+                </p>
+                <a
+                  href="https://paystack.com/pay/ywsoz3ml1y"
+                  class="text-white text-center hover:bg-borderColor self-stretch transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  target="_blank"
+                  >Get started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          Beyond the Numbers
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-6"
+          >
+            <div class="flex my-8 flex-col items-start gap-8">
+              <h2 class="text-2xl font-semibold capitalize">
+                Course Format and Delivery
+              </h2>
+              <p class="text-lg">
+                The course is structured in a flexible online self-paced format,
+                allowing you to learn at your convenience. Through a
+                user-friendly online platform, you'll have round-the-clock
+                access to a wealth of resources. The heart of the course lies in
+                engaging video lectures led by our expert instructor. These
+                dynamic sessions break down complex concepts, complemented by
+                comprehensive written content that reinforces your
+                understanding. Regular quizzes punctuate the learning
+                experience, enabling you to assess your progress and solidify
+                your grasp on the material. What truly sets this course apart is
+                the weekly interactive Q & A sessions, where you can directly
+                engage with the instructor and fellow learners, seeking
+                clarification, sharing insights, and fostering a supportive
+                community that enhances your learning journey.
+              </p>
+            </div>
+            <div class="flex my-8 flex-col items-start gap-8">
+              <h2 class="text-2xl font-semibold capitalize">
+                Course Duration and Time
+              </h2>
+              <p class="text-lg">
+                Embark on an immersive journey of comprehensive transformation,
+                where just five (5) months of dedicated focus on our
+                cutting-edge course material and interactive sessions will
+                elevate your web development skills to new heights. Immerse
+                yourself in a transformative experience, and witness firsthand
+                the remarkable growth of your prowess in web development.
+                Through a carefully curated curriculum and engaging sessions, we
+                invite you to invest your time and effort into this
+                transformative journey, unlocking a world of possibilities and
+                unleashing the full potential of your capabilities in the
+                dynamic realm of web development.
+              </p>
+            </div>
+            <div class="flex my-8 flex-col items-start gap-8">
+              <h2 class="text-2xl font-semibold capitalize">
+                Who Should Enroll
+              </h2>
+              <p class="text-lg">
+                The Web Development Masterclass is tailored for aspiring
+                individuals eager to embark on a dynamic journey into the realm
+                of web development. Whether you're a beginner taking your first
+                steps into coding or an intermediate developer looking to
+                enhance your skills, this course caters to a diverse audience.
+                Entrepreneurs aiming to build their own online presence,
+                creative minds wanting to bring their design concepts to life,
+                and professionals seeking to pivot into the tech industry will
+                find this masterclass invaluable. If you're passionate about
+                shaping the digital landscape and crafting immersive online
+                experiences, this course is the perfect fit for you.
+              </p>
+            </div>
+            <div class="flex my-8 flex-col items-start gap-8">
+              <h2 class="text-2xl font-semibold capitalize">
+                Access to Support and Community
+              </h2>
+              <p class="text-lg">
+                Embark on this journey with a supportive community by your side.
+                Engage in weekly live Q&A sessions to interact directly with the
+                instructor and fellow learners. Join our vibrant discussion
+                forums to exchange insights and experiences. Plus, enjoy direct
+                contact with the instructor for personalized guidance, ensuring
+                you're never alone on your path to web development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="px-4 py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          contact us
+        </h1>
+        <div class="relative">
+          <img
+            src="./imgs/screen-contact-call.jpg"
+            alt="a guy making a call while staring at his desktop"
+            class="w-full h-[40rem] object-cover object-center"
+          />
+          <div class="xl:w-[69rem] w-full mx-auto my-0 text-white">
+            <div
+              class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 md:gap-6 absolute top-20 md:top-60"
+            >
+              <div class="flex my-8 flex-col items-start gap-8">
+                <h2 class="md:text-4xl text-2xl font-semibold capitalize">
+                  For any inquiries or assistance, feel free to reach us
+                </h2>
+              </div>
+              <div class="flex my-8 flex-col items-start gap-4 md:gap-8">
+                <h2 class="xl:text-3xl text-xl font-semibold capitalize">
+                  Tel: +1 850-546-9542 (voice mail)
+                </h2>
+                <h2 class="xl:text-3xl text-xl font-semibold capitalize">
+                  jasontechacademy @gmail.com
+                </h2>
+                <h3 class="md:text-3xl text-xl font-semibold capitalize">
+                  don't hesitate to text on
+                  <a
+                    href="https://wa.link/mq89qj"
+                    class="text-secondaryColor underline"
+                    target="_blank"
+                    >Whatsapp</a
+                  >
+                </h3>
+              </div>
+              <div class="flex my-8 flex-col items-start gap-8">
+                <a
+                  href="#pricing"
+                  class="text-white cta-link hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  >Enroll</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 w-full bg-PrimaryColor text-white">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          Money-Back Guarantee
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <p class="text-xl mx-8 font-medium">
+            your satisfaction is our top priority. We are genuinely confident in
+            the exceptional value that our course delivers. Should you, within
+            the initial 7 days, discover that the course doesn't align with your
+            expectations, we proudly extend a hassle-free money-back guarantee.
+            Our commitment to your satisfaction ensures that your journey
+            towards coding mastery is not only enriching but also entirely
+            risk-free. Join us with confidence, knowing that we stand by the
+            quality of our course and your educational satisfaction.
+          </p>
+        </div>
+      </section>
+      <section id="enroll" class="py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          enroll now
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-6"
+          >
+            <div class="flex my-8 flex-col items-center gap-8">
+              <h2 class="md:text-4xl text-xl font-semibold capitalize">
+                Take your web development skills to the next level
+              </h2>
+              <p class="text-lg">
+                Join our Web Development Masterclass and become a coding expert.
+              </p>
+              <div class="self-start cta-btn mt-8">
+                <a
+                  href="#pricing"
+                  class="text-white cta-link hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  >Enroll</a
+                >
+              </div>
+            </div>
+            <div class="md:w-full h-96">
+              <img
+                src="imgs/code-screen-desktop.jpg"
+                alt="web-developing-setup"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 w-full">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          enroll later ?
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-6"
+          >
+            <div class="md:w-full h-96">
+              <img
+                src="imgs/screen-desktop-mobile.jpg"
+                alt="web-developing-setup"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <div class="flex my-8 flex-col items-center gap-8">
+              <h2 class="md:text-4xl text-xl font-semibold capitalize">
+                Don't miss out on this opportunity to gain an edge.
+              </h2>
+              <p class="text-lg">
+                Join the Waitlist Now! Be at the forefront of our exclusive
+                updates and secure your spot for early enrollment benefits
+              </p>
+              <div class="self-start cta-btn mt-8">
+                <a
+                  href="https://t.me/+7WsvbTXGDeoxNGU0"
+                  class="text-white hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8"
+                  target="_blank"
+                  >Join Waitlist</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 w-full bg-PrimaryColor text-white">
+        <h1
+          class="md:text-5xl text-3xl text-center capitalize font-medium mb-8"
+        >
+          meet our team
+        </h1>
+        <div class="xl:w-[69rem] w-full mx-auto">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:gap-16 xl:ml-0 md:grid-cols-2 gap-x-6 gap-y-12"
+          >
+            <div>
+              <div class="flex gap-4 mt-4 justify-center">
+                <div class="w-36 h-36 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover"
+                  />
+                </div>
+                <div class="flex flex-col gap-4 w-1/2 justify-center">
+                  <h3 class="font-semibold text-xl capitalize">Sarah J.</h3>
+                  <p class="text-lg">
+                    Full-Stack developer with 2 years of experience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-4 mt-4 justify-center">
+                <div class="w-36 h-36 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover"
+                  />
+                </div>
+                <div class="flex flex-col gap-4 w-1/2 justify-center">
+                  <h3 class="font-semibold text-xl capitalize">Sarah J.</h3>
+                  <p class="text-lg">
+                    Full-Stack developer with 2 years of experience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-4 mt-4 justify-center">
+                <div class="w-36 h-36 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover"
+                  />
+                </div>
+                <div class="flex flex-col gap-4 w-1/2 justify-center">
+                  <h3 class="font-semibold text-xl capitalize">Sarah J.</h3>
+                  <p class="text-lg">
+                    Full-Stack developer with 2 years of experience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-4 mt-4 justify-center">
+                <div class="w-36 h-36 self-center">
+                  <img
+                    src="imgs/web-development-and-designe-upscaled.png"
+                    alt="web-developing-setup"
+                    class="w-full h-full object-center object-cover"
+                  />
+                </div>
+                <div class="flex flex-col gap-4 w-1/2 justify-center">
+                  <h3 class="font-semibold text-xl capitalize">Sarah J.</h3>
+                  <p class="text-lg">
+                    Full-Stack developer with 2 years of experience
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 w-full">
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <div
+            class="grid grid-cols-1 md:ml-8 mx-4 xl:ml-0 md:grid-cols-2 xl:grid-cols-3 md:gap-4 xl:gap-16"
+          >
+            <div class="flex my-8 flex-col items-center gap-8">
+              <h2 class="md:text-4xl text-xl font-semibold capitalize">
+                Frequently Asked Questions
+              </h2>
+              <p class="text-lg">
+                Find answers to common questions about the Web Development
+                Masterclass and our services.
+              </p>
+              <div class="self-start cta-btn mt-8">
+                <a
+                  href="#contact"
+                  class="text-white cta-link hover:bg-borderColor transition-all capitalize duration-500 text-xl font-medium bg-secondaryColor px-6ymd:Color py-3 px-8"
+                  >contact us</a
+                >
+              </div>
+            </div>
+            <div
+              class="flex my-8 flex-col items-start xl:col-span-2 gap-2 question-container"
+            >
+              <div class="border-t-2 border-borderColor py-4 cursor-pointer">
+                <div class="flex items-center gap-4 question">
+                  <h2 class="xl:text-2xl text-xl font-medium capitalize">
+                    What is the course duration?
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="20"
+                    viewBox="0 0 16 7"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="text-lg mt-3 hidden border-borderColor border-b-2 answer"
+                  data-id="0"
+                >
+                  The Web Development Masterclass is a Five (5) Months.
+                  intensive program designed to equip you with the skills needed
+                  to become a professional web developer.
+                </p>
+              </div>
+              <div class="border-t-2 border-borderColor py-4 cursor-pointer">
+                <div class="flex items-center gap-4 question">
+                  <h2 class="xl:text-2xl text-xl font-medium capitalize">
+                    Will I be able to practice along side
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="20"
+                    viewBox="0 0 16 7"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="text-lg mt-3 hidden border-borderColor border-b-2 answer"
+                  data-id="1"
+                >
+                  Absolutely! Our interactive learning platform allows you to
+                  practice alongside the course material. With hands-on
+                  exercises and real-time coding challenges, you can actively
+                  apply what you're learning.
+                </p>
+              </div>
+              <div class="border-t-2 border-borderColor py-4 cursor-pointer">
+                <div class="flex items-center gap-4 question">
+                  <h2 class="xl:text-2xl text-xl font-medium capitalize">
+                    Is it a certificate program?
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="20"
+                    viewBox="0 0 16 7"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="text-lg mt-3 hidden border-borderColor border-b-2 answer"
+                  data-id="2"
+                >
+                  upon successful completion of the program, you will receive a
+                  certificate recognizing your achievement. Our certificate is a
+                  testament to your dedication and proficiency in the subject
+                  matter.
+                </p>
+              </div>
+              <div class="border-t-2 border-borderColor py-4 cursor-pointer">
+                <div class="flex items-center gap-4 question">
+                  <h2 class="xl:text-2xl text-xl font-medium capitalize">
+                    Will the Question & Answer Sessions be recorded?
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="20"
+                    viewBox="0 0 16 7"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="text-lg mt-3 hidden border-borderColor border-b-2 answer"
+                  data-id="3"
+                >
+                  Certainly! All Question & Answer sessions will be recorded for
+                  your convenience. We understand that scheduling conflicts may
+                  arise, and it's important for you to have the flexibility to
+                  revisit or catch up on sessions.
+                </p>
+              </div>
+              <div class="border-t-2 border-borderColor py-4 cursor-pointer">
+                <div class="flex items-center gap-4 question">
+                  <h2 class="xl:text-2xl text-xl font-medium capitalize">
+                    Will the Strategic Online Positioning Sessions be recorded ?
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="20"
+                    viewBox="0 0 16 7"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="text-lg mt-3 hidden border-borderColor border-b-2 answer"
+                  data-id="4"
+                >
+                  Yes, the Strategic Online Positioning Sessions will be
+                  recorded for your benefit. We recognize that participants may
+                  have scheduling constraints, and recording these sessions
+                  ensures that you have the flexibility to access the content at
+                  your convenience.
+                </p>
+              </div>
+              <div class="border-t-2 border-borderColor py-4 cursor-pointer">
+                <div class="flex items-center gap-4 question">
+                  <h2 class="xl:text-2xl text-xl font-medium capitalize">
+                    Please, can I have a one-on-one inquiry session with your
+                    team?
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="20"
+                    viewBox="0 0 16 7"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="text-lg mt-3 hidden border-borderColor border-b-2 answer"
+                  data-id="5"
+                >
+                  Certainly! We value your interest and are more than happy to
+                  arrange a one-on-one inquiry session with our dedicated team.
+                  This personalized session will provide you with the
+                  opportunity to ask specific questions, discuss your individual
+                  needs, and gain a deeper understanding of how our program can
+                  benefit you. to do that contact us via:
+                  <a
+                    href="https://wa.link/mq89qj"
+                    class="text-secondaryColor underline hover:no-underline"
+                  >
+                    Whatsapp
+                  </a>
+                  or Email:<b> jasontechacademy@gmail.com </b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="py-20 bg-PrimaryColor text-white w-full">
+        <div class="xl:w-[69rem] w-full mx-auto my-0">
+          <h2
+            class="md:text-3xl md:mx-8 mx-4 text-xl font-medium capitalize md:text-center"
+          >
+            Take your coding skills to the next level with our comprehensive Web
+            Development Masterclass course.
+          </h2>
+          <div class="mt-8 flex justify-center items-center">
+            <a
+              href="#pricing"
+              class="text-white cta-link hover:bg-borderColor transition-all duration-500 text-xl font-medium bg-secondaryColor md:py-3 py-2 px-6 md:px-8 uppercase"
+              >enroll now</a
+            >
+          </div>
+          <div
+            class="flex flex-col justify-center md:flex-row md:justify-around items-center mt-10"
+          >
+            <div
+              role="logo"
+              aria-describedby="logo of jason tech academy"
+              class="w-36 bg-white"
+            >
+              <a href="index.html">
+                <img
+                  src="./imgs/jason_tech_academy_logo-png.png"
+                  alt="jason tech logo"
+                  class="w-full h-auto"
+                />
+              </a>
+            </div>
+            <nav class="self-center mt-4">
+              <ul
+                class="flex flex-col justify-center footer-list items-center md:items-center md:justify-normal md:flex-row gap-8"
+              >
+                <li>
+                  <a
+                    href="#course"
+                    tabindex="1"
+                    class="text-white hover:text-secondaryColor text-lg"
+                    >Course Over-view</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#about"
+                    tabindex="2"
+                    class="text-white hover:text-secondaryColor text-lg"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#pricing"
+                    tabindex="3"
+                    class="text-white hover:text-secondaryColor text-lg"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    tabindex="4"
+                    class="text-white hover:text-secondaryColor text-lg"
+                    >Contact</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#enroll"
+                    tabindex="5"
+                    class="text-white cta-link hover:bg-PrimaryColor transition-all duration-500 text-lg bg-secondaryColor py-2 px-5"
+                    role="button"
+                    >Enroll</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
